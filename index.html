@@ -17,18 +17,17 @@
 </head>
 
 <body>
-
     <header class="header_sec">
         <div class="container">
             <nav class="navBar">
                 <div class="elements">
                     <a class="SF" href="#index.html">SF</a>
                     <ul class="items">
-                        <li class="hideOnMobile"><a href="index.html" class="current">Home</a></li>
+                        <li class="hideOnMobile"><a href="index.html">Home</a></li>
                         <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
                         <li class="hideOnMobile"><a href="skills.html">Skills</a></li>
                         <li class="hideOnMobile"><a href="sports.html">Sports</a></li>
-                        <li class="hideOnMobile"><a href="#about">About</a></li>
+                        <li class="hideOnMobile"><a class="btnnavbars" href="#about">About</a></li>
                         <li class="menu_hamburger" onclick=showHam()><a href="#"><i class="fa-solid fa-bars"></i></a>
                         </li>
                     </ul>
@@ -60,8 +59,6 @@
                 </div>
             </div>
         </div>
-
-
     </header>
 
     <section id="about" class="aboutInfo">
@@ -89,6 +86,11 @@
 
     <script src="./JS/hamburger.js"></script>
     <script src="./JS/typescript.js"></script>
+    <!-- pageAnimation related jquery link -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="./JS/pageAnimation.js"></script>
+    <!-- ---------------------------- -->
 </body>
 
 </html>

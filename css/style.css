@@ -190,11 +190,17 @@ ul {
   .menu_hamburger {
     display: block;
   }
+  .otherWords h1 {
+    font-size: 3rem; /* Adjust heading size for smaller screens */
+  }
 }
 
 /* navbar items on mobile responsive full screen */
 
 @media (max-width: 500px) {
+  .otherWords h1 {
+    font-size: 2rem; /* Adjust heading size for smaller screens */
+  }
   .side_bar {
     width: 100%;
   }
@@ -254,6 +260,46 @@ ul {
 }
 .rightSide p {
   font-size: 25px;
+}
+
+@media (max-width: 780px) {
+  .intro {
+    text-align: center;
+    flex-direction: column;
+  }
+  .rightSide h2 {
+    font-size: 2rem;
+  }
+  .rightSide p {
+    font-size: 15px;
+    width: 100%;
+  }
+  .leftSide {
+    margin-left: 0;
+  }
+}
+@media (max-width: 500px) {
+  .intro {
+    text-align: center;
+    flex-direction: column;
+  }
+  .rightSide h2 {
+    font-size: 20px;
+  }
+  /*.rightSide p {
+    font-size: 15px;
+    width: 100%;
+  }
+  .leftSide {
+    margin-left: 0;
+  } */
+}
+
+@media (max-width: 600px) {
+  .rightSide {
+    width: 50%;
+  }
+
 }
 
 /* -------------------------- */
