@@ -6,7 +6,6 @@
 }
 
 body {
-  color: white;
   line-height: 1.7em;
   font-family: "Dosis", sans-serif;
 }
@@ -23,10 +22,11 @@ ul {
 /* header design------------------------ */
 
 .container {
+  font-family: "Dosis", sans-serif;
   max-width: 80%;
   padding: 0 1.5rem;
   margin: auto;
-  overflow: hidden;
+  overflow: auto;
 }
 .elements a {
   color: white;
@@ -46,6 +46,8 @@ ul {
   justify-content: space-between;
 }
 .header_sec {
+  text-transform: uppercase;
+  color: white;
   height: 100vh;
   background: url(../images/pxfuel.jpg) no-repeat center center/cover;
 }
@@ -98,7 +100,6 @@ ul {
 }
 .items a {
   color: white;
-  /* font-size: 25px; */
   text-decoration: none;
   border-bottom: 3px transparent solid;
   padding-bottom: 0 0.5 rem;
@@ -118,7 +119,7 @@ ul {
 
 /* Responsiveness Media Queries */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   .container {
     max-width: 90%; /* Adjust container width for smaller screens */
   }
@@ -153,6 +154,8 @@ ul {
     margin-top: 30%; /* Further adjust margin for smaller screens */
   }
 }
+
+/* sidebar starts */
 
 .side_bar a {
   color: white;
@@ -196,3 +199,61 @@ ul {
     width: 100%;
   }
 }
+.SF {
+  /* border-radius: 8px; */
+  font-size: 30px;
+  padding: 5px;
+  background-color: rgba(87, 12, 124, 0.606);
+  font-family: "Dancing Script", cursive;
+}
+
+/* ------------------------------ */
+/* My info section */
+
+.container2 {
+  font-family: "Dosis", sans-serif;
+  max-width: 80%;
+  height: 100%;
+  padding: 0 1.5rem;
+  margin: auto;
+  overflow: auto;
+}
+
+.aboutInfo {
+  color: white;
+  height: 100vh;
+  background-color: rgba(2, 9, 30, 0.935);
+}
+.infos h1 {
+  margin-top: 15%;
+  margin-bottom: 10%;
+  text-align: center;
+  font-size: 50px;
+}
+
+.leftSide img {
+  border-radius: 10px;
+  height: 300px;
+  width: 300px;
+}
+.leftSide {
+  margin-left: 10%;
+}
+.intro {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.rightSide {
+  width: 40%;
+}
+.rightSide h2 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+.rightSide p {
+  font-size: 25px;
+}
+
+/* -------------------------- */
