@@ -152,41 +152,53 @@ ul {
 
 /* Responsiveness Media Queries */
 
-@media only screen and (max-width: 1024px) {
-  .container {
-    max-width: 90%; /* Adjust container width for smaller screens */
-  }
-
+@media screen and (max-width: 1200px) and (min-width: 762px) {
   .header_contents {
-    padding-top: 20%; /* Adjust padding for smaller screens */
+    margin-top: 20%;
   }
-
   .otherWords h1 {
-    font-size: 60px; /* Adjust heading size for smaller screens */
+    font-size: 3rem;
   }
-
-  .lead {
-    font-size: 28px; /* Adjust lead font size for smaller screens */
+}
+@media screen and (min-width: 1200px) {
+  .header_contents {
+    margin-top: 10%;
   }
-
-  .socials {
-    margin-top: 20%; /* Adjust margin for smaller screens */
+  .otherWords h1 {
+    font-size: 4rem;
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media screen and (min-width: 501px) and (max-width: 768px) {
+  .header_contents {
+    margin-top: 40%;
+  }
   .otherWords h1 {
-    font-size: 40px; /* Further adjust heading size for smaller screens */
-  }
-
-  .lead {
-    font-size: 20px; /* Further adjust lead font size for smaller screens */
-  }
-
-  .socials {
-    margin-top: 30%; /* Further adjust margin for smaller screens */
+    font-size: 2rem;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .header_contents {
+    margin-top: 65%;
+  }
+  .otherWords h1 {
+    font-size: 30px;
+  }
+  .otherWords p {
+    font-size: 1rem;
+  }
+  .socials i{
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 345px){
+  .socials i{
+    font-size: 1rem !important;
+    
+  }
+}
+
 
 /* sidebar starts */
 
@@ -223,17 +235,11 @@ ul {
   .menu_hamburger {
     display: block;
   }
-  .otherWords h1 {
-    font-size: 3rem; /* Adjust heading size for smaller screens */
-  }
 }
 
 /* navbar items on mobile responsive full screen */
 
 @media (max-width: 500px) {
-  .otherWords h1 {
-    font-size: 2rem; /* Adjust heading size for smaller screens */
-  }
   .side_bar {
     width: 100%;
   }
@@ -339,21 +345,21 @@ ul {
 
 @keyframes slideIn {
   from {
-      transform: translateX(50px);
-      opacity: 0;
+    transform: translateX(50px);
+    opacity: 0;
   }
   to {
-      transform: translateX(0);
-      opacity: 1;
+    transform: translateX(0);
+    opacity: 1;
   }
 }
 
 @keyframes fadeIn {
   from {
-      opacity: 0;
+    opacity: 0;
   }
   to {
-      opacity: 1;
+    opacity: 1;
   }
 }
 /* ----------------------------------------------- */
@@ -382,12 +388,12 @@ ul {
 
 @keyframes fadeInUp {
   from {
-      opacity: 0;
-      transform: translateY(20px);
+    opacity: 0;
+    transform: translateY(20px);
   }
   to {
-      opacity: 1;
-      transform: translateY(0);
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
