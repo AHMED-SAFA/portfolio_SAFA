@@ -188,17 +188,15 @@ ul {
   .otherWords p {
     font-size: 1rem;
   }
-  .socials i{
+  .socials i {
     font-size: 2rem;
   }
 }
-@media screen and (max-width: 345px){
-  .socials i{
+@media screen and (max-width: 345px) {
+  .socials i {
     font-size: 1rem !important;
-    
   }
 }
-
 
 /* sidebar starts */
 
@@ -245,11 +243,15 @@ ul {
   }
 }
 .SF {
-  /* border-radius: 8px; */
+  margin-left: 30px;
+  border-radius: 4px;
+  border: 2px solid white;
   font-size: 30px;
   padding: 5px;
-  background-color: rgba(87, 12, 124, 0.606);
-  font-family: "Dancing Script", cursive;
+  background-color: rgba(87, 12, 124, 0.189);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
 }
 
 /* ------------------------------ */
@@ -418,3 +420,48 @@ ul {
 }
 
 /* ------------------------------ */
+
+/* skill page css  */
+
+.skill_page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 100%; */
+  min-height: 100vh;
+  background: url(../images/skill_back.jpg) no-repeat center center/cover;
+}
+/*
+.details{
+  padding-top: 10%;
+  text-align: center;
+  color: white;
+}
+
+
+.head{
+  font-size: 2rem;
+  margin-bottom: 3%;
+}
+
+.details_info{
+  width: 100%;
+  font-size: 20px;
+} */
+.skilll {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4;
+}
+
+.skilll .card {
+  position: relative;
+  width: 220px;
+  height: 220 px;
+  background: antiquewhite;
+}
+
+/* ------------------------ */
