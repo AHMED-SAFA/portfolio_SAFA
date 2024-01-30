@@ -6,9 +6,9 @@
 }
 
 body {
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   min-height: 100vh;
   /* background: url(../images/skill_back4.jpg) no-repeat center center/cover; */
   background-color: rgb(21, 20, 20);
@@ -30,6 +30,7 @@ body {
   position: relative;
   width: 220px;
   height: 220px;
+  box-shadow: 1px 1px 8px 1px rgba(236, 227, 227, 0.392);
   border: 1px solid rgba(227, 215, 215, 0.307);
   background: rgba(30, 30, 29, 0);
   display: flex;
@@ -135,32 +136,32 @@ body {
 /* ==============responsives============== */
 
 @media screen and (max-width: 500px) {
-  .container h1{
+  .container h1 {
     font-size: 25px;
     padding-top: 35%;
   }
 
-  .containerskill{
+  .containerskill {
     padding-top: 4%;
   }
 }
 
 @media screen and (min-width: 501px) and (max-width: 768px) {
-  .container h1{
+  .container h1 {
     padding-top: 20%;
   }
 
-  .containerskill{
+  .containerskill {
     padding-top: 4%;
   }
 }
 
 @media screen and (max-width: 1200px) and (min-width: 768px) {
-  .container h1{
+  .container h1 {
     padding-top: 15%;
   }
 
-  .containerskill{
+  .containerskill {
     padding-top: 4%;
   }
 }
@@ -176,3 +177,35 @@ body {
 }
 
 /* ------------------------------------- */
+
+/* =========practical skills=============*/
+
+.slider
+{
+  margin: 0 auto;
+  width: 800px;
+  max-width: 100%;
+  text-align: center;
+}
+
+#slider input[type=radeio]
+{
+  display: none;
+}
+#slider label{
+  cursor: pointer;
+  text-decoration: none;
+}
+#slides{
+  padding: 30px;
+  border: 3px solid #ccc;
+  background: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+#overflow{
+  
+}
+
+/* ------------------------------------------- */
