@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
 body {
   /* display: flex;
   justify-content: center;
@@ -13,9 +18,16 @@ body {
   /* background: url(../images/skill_back4.jpg) no-repeat center center/cover; */
   background-color: rgb(21, 20, 20);
 }
-.sec_class {
+/* .sec_class {
   width: 100%;
   height: 100vh;
+} */
+.container2 {
+  /* height: 100vh; */
+  font-family: "Dosis", sans-serif;
+  width: 100%;
+  margin: auto;
+  overflow: auto;
 }
 .containerskill {
   padding-top: 3%;
@@ -125,7 +137,7 @@ body {
   }
 }
 
-.container h1 {
+.container2 h1 {
   font-size: 30px;
   font-family: "Times New Roman", Times, serif;
   text-align: center;
@@ -136,7 +148,7 @@ body {
 /* ==============responsives============== */
 
 @media screen and (max-width: 500px) {
-  .container h1 {
+  .container2 h1 {
     font-size: 25px;
     padding-top: 35%;
   }
@@ -147,7 +159,7 @@ body {
 }
 
 @media screen and (min-width: 501px) and (max-width: 768px) {
-  .container h1 {
+  .container2 h1 {
     padding-top: 20%;
   }
 
@@ -157,7 +169,7 @@ body {
 }
 
 @media screen and (max-width: 1200px) and (min-width: 768px) {
-  .container h1 {
+  .container2 h1 {
     padding-top: 15%;
   }
 
@@ -167,7 +179,7 @@ body {
 }
 
 @media screen and (min-width: 1200px) {
-  .container h1 {
+  .container2 h1 {
     padding-top: 10%;
   }
 
@@ -178,34 +190,32 @@ body {
 
 /* ------------------------------------- */
 
-/* =========practical skills=============*/
+/* ----------------Download cv button----------------- */
 
-.slider
-{
-  margin: 0 auto;
-  width: 800px;
-  max-width: 100%;
-  text-align: center;
-}
-
-#slider input[type=radeio]
-{
-  display: none;
-}
-#slider label{
-  cursor: pointer;
-  text-decoration: none;
-}
-#slides{
-  padding: 30px;
-  border: 3px solid #ccc;
-  background: #fff;
-  position: relative;
-  z-index: 1;
+.download-cv-container {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#overflow{
-  
+#dwbtn {
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 5px;
+  font-size: 25px;
+  padding: 20px;
+  color: white;
+  background: black;
+  box-shadow: 0 0 5px cyan, 0 0 15px cyan;
+}
+#dwbtn:hover {
+  transition: all 0.5s ease-in;
+  border: 2px solid black;
+  color: black;
+  background-color: wheat;
+  box-shadow: 0 0 8px cyan, 0 0 10px cyan, 0 0 30px cyan, 0 0 30px cyan,
+    0 0 70px cyan;
 }
 
-/* ------------------------------------------- */
+/* ------------------------------------------------------- */
