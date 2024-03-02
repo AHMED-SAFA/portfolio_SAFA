@@ -11,7 +11,6 @@
     <!-- Swiper CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.css">
 
-
     <title>Ahmed | Sports</title>
 </head>
 
@@ -19,9 +18,9 @@
     <div class="main_element_section">
         <div class="container">
             <div class="navbar">
-                <a class="SF" href="index.html"><span class="safa">S </span>F</a>
+                <a class="SF" href="index.php"><span class="safa">S </span>F</a>
                 <ul class="nav_items">
-                    <li class="hideOnMobile"><a href="index.html">Home</a></li>
+                    <li class="hideOnMobile"><a href="index.php">Home</a></li>
                 </ul>
             </div>
 
